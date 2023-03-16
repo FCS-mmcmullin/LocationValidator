@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<script type="text/javascript" src="validator.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPwoUzIowhhuBHsT-cH_1DTtQAby9t3oE&v=3&callback=LocationValidator.init" async defer></script>
+		<link href="validator.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="map_canvas"></div>
+		<div class="searchbox roundbox">
+			<input type="text" id="searchaddress" placeholder="Search Address">
+			<div id="results">
+			</div>	
+		</div>
+		<div id="toast">Toast</div>
+	</body>
+</html>

@@ -1,0 +1,114 @@
+* { padding: 0; margin: 0; font-family: Roboto, Arial, sans-serif;}
+
+#map_canvas
+{
+	width:100%;
+	height:100%;
+}
+
+#map_options
+{
+	display: block;
+	position: absolute;
+	background: #FFFFFF;
+	border-left: 1px solid #222222;
+	border-top: 1px solid #222222;
+	border-right: 2px solid #222222;
+	border-bottom: 2px solid #222222;
+	bottom: 3;
+	left: 4;
+	
+	padding: 2;
+	margin: 0;
+	padding-right: 6;
+	padding-left: 4;
+}
+
+.searchbox
+{
+	width: 250px;
+
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.roundbox
+{
+	color: rgb(0,0,0);
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 13px;
+	background-color: rgb(255, 255, 255);
+    padding: 8px;
+	border-radius: 2px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+}
+
+input
+{
+	width:100%;
+	border: 1px solid transparent;
+	border-bottom: 1px solid #999999;
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+
+.resultHeader
+{
+	display: table;
+}
+
+.resultIcon
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.resultInfo
+{
+	display:table-cell;
+	width:100%;
+	padding: 7px;
+}
+
+.resultInfo span
+{
+	user-select: all;
+}
+
+.resultHeader
+{
+	font-weight: bold;
+	font-size: 14px;
+	margin:0px;
+}
+
+.houseicon
+{
+	vertical-align: middle;
+}
+
+/* The toast - position it at the bottom and in the middle of the screen */
+#toast {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: rgba(0,0,0,.75); /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the toast */
+    bottom: 30px; /* 30px from the bottom */
+	font-size: 16px;
+}
+
+/* Show the toast when clicking on a button (class added with JavaScript) */
+#toast.show {
+    visibility: visible; /* Show the toast */
+}

@@ -1,0 +1,7 @@
+http://gis.michigan.opendata.arcgis.com/datasets/f40e3bf5815e4045a68c53af572690f6_10
+
+Filter for one school district
+download geojson for just that district
+save in geojson/district.txt
+edit json to add COLOR property (this will be used for fill color in the app)
+edit validator.js \ LocationValidator.init function to load new json
